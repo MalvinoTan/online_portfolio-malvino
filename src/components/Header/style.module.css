@@ -1,0 +1,10 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 18%;
+}
