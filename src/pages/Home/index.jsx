@@ -11,10 +11,10 @@ const Home = () => {
         <div className={styles.container}>
             <Header title="Home" />
             <section className={styles.section}>
-                <img src={hacktiv8} alt="Hacktiv8" className={styles.img}/>
+                <img src={hacktiv8} alt="Hacktiv8" className={styles.img} />
                 <p>Malvino Austin Tanura</p>
                 <p>Assignment 3 Hacktiv8 - React</p>
-                <br/>
+                <br />
                 <p>This my simple online portfolio</p>
                 <p>Hope you enjoy to read it!</p>
             </section>

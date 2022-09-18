@@ -34,6 +34,10 @@ const SideBar = () => {
         {
             title: "Awards",
             path: "/awards",
+        },
+        {
+            title: "Organizations",
+            path: "/organizations",
         }
     ];
 

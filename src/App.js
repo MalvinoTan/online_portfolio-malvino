@@ -10,13 +10,13 @@ import Education from './pages/Education';
 import Skills from './pages/Skills';
 import Interests from './pages/Interests';
 import Awards from './pages/Awards';
+import Organizations from './pages/Organizations';
 
 const App = () => {
   return (
     <>
       <SideBar />
       <div className="content_container">
-        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,6 +25,7 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interests />} />
           <Route path="/awards" element={<Awards />} />
+          <Route path="/organizations" element={<Organizations />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
