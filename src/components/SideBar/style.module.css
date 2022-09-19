@@ -6,11 +6,11 @@
     min-height: 100vh;
     background-color: white;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.2rem 0;
 }
 
 .img {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .img > img {
@@ -19,7 +19,7 @@
 }
 
 .sidebar_item {
-    padding: 0.9rem;
+    padding: 0.8rem;
     text-decoration: none;
     color: #a0a1a1;
 }
